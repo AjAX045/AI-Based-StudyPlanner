@@ -17,7 +17,7 @@ app.add_middleware(
 )
 
 # ✅ Configure Gemini API Key
-genai.configure(api_key="AIzaSyAB37LoW88Uy4XKa85WQHDNbuPUi1hKHr4")
+genai.configure(api_key="Your API key Here")
 
 # ✅ Define Request Model
 class StudyPlanRequest(BaseModel):
